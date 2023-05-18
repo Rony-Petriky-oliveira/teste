@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+secrets.toml
 
 # Distribution / packaging
 .Python
@@ -25,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.toml
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -38,6 +40,7 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
+.toml
 .tox/
 .nox/
 .coverage
@@ -137,7 +140,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
+.toml
 # mypy
 .mypy_cache/
 .dmypy.json
